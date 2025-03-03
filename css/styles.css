@@ -1,7 +1,8 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: 
+    background-color: #fff;
 }
+
 .main-page-links {
     width: 1440px;
     height: 72px;
@@ -13,7 +14,7 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 117%;
+    line-height: 1.333;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-top: 24px;
@@ -43,7 +44,7 @@ gap: 40px;
 .email {
     font-weight: 400;
         font-size: 16px;
-        line-height: 150%;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
         padding-left: 332px;
@@ -52,7 +53,7 @@ gap: 40px;
 .phone {
     font-weight: 400;
         font-size: 16px;
-        line-height: 150%;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
         padding-left: 40px;
@@ -72,7 +73,7 @@ ul {
 .main-header {
     font-weight: 700;
         font-size: 56px;
-        line-height: 107%;
+        line-height: 0.5;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
@@ -89,35 +90,25 @@ ul {
         
 }
 
+.main-button:hover {
+color: #404BBF;
+}
+
 .main-page-descr {
     width: 1128px;
     height: 104px;  
+    display: flex;
 }
 
-.about-strategy {
+.about-strategy, .about-punktuality, .about-diligence, .about-techno  {
     width: 264px;
     height: 104px;
 }
-.about-punktuality {
-    width: 264px;
-        height: 104px;
-}
-
-.about-diligence{
-    width: 264px;
-    height: 104px;
-}
-
-.about-techno {
-    width: 264px;
-    height: 104px;
-}
-
 
 .main-page-descr-item {
     font-weight: 500;
     font-size: 20px;
-    line-height: 120%;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
@@ -125,7 +116,7 @@ ul {
 .about-item {
 font-weight: 400;
 font-size: 16px;
-line-height: 150%;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
@@ -135,3 +126,119 @@ color: #434455;
     display: flex;
 }
 
+
+
+.main-page-team {
+    width: 1440px;
+    height: 732px;
+    background: #f4f4fd;
+    display: flex;
+}
+.team-header  {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 0.666;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+
+.main-page-team-descr {
+border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+        background: #fff;
+}
+
+.team-name {
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.team-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+
+.main-page-portfolio {
+    width: 1128px;
+    height: 1000px;
+    display: flex;
+}
+
+.main-page-header-portfolio {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 0.666;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+
+.portfolio-descr {
+width: 360px;
+height: 420px;
+background: #fff;
+}
+
+.name-portfolio {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.name-portfolio-descr {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.main-page-footer {
+    width: 1440px;
+    height: 312px;
+    background: #2e2f42;
+    display: flex;
+}
+
+.logo-footer {
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.333;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        padding-left: 156px;
+}
+
+.descr-footer {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+}
+
+
+.nav ul li a:hover {
+    color: #4D5AE5;
+}
+
+.nav ul li a:focus {
+    color: #4D5AE5;
+}
