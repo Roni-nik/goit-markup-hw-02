@@ -15,7 +15,7 @@ a {
 }
 
 
-.logo {
+.all-nav-links {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
@@ -33,6 +33,13 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
+}
+.logo:hover {
+    color: #404bbf;
+}
+
+.logo:focus {
+    color: #404bbf;
 }
 
 .main-nav-link {
@@ -164,7 +171,7 @@ color: #434455;
 background: #fff;
 }
 
-.main-page-portfolio{
+.main-page-portfolio {
     font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
@@ -219,13 +226,7 @@ background: #fff;
 }
 
 
-.link:hover {
-    color: #404bbf;
-}
 
-.link:focus {
-    color:#404bbf;
-}
 address {
 font-style: normal
 }
