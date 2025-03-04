@@ -17,8 +17,6 @@ a {
 
 
 .logo {
-    width: 115px;
-    height: 24px;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -65,14 +63,11 @@ color: #4d5ae5;
  }
 
 .main-container-head {
-    width: 1440px;
-    height: 600px;
     background: #2e2f42;
 }
 
 .main-header {
         font-size: 56px;
-        line-height: 60px;
         line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
@@ -80,7 +75,6 @@ color: #4d5ae5;
 }
 
 .main-button {
-    border-radius: 4px;
     background: #4d5ae5;
     text-align: center;
     cursor: pointer;
@@ -150,8 +144,6 @@ color: #434455;
 }
 
 .portfolio-descr {
-width: 360px;
-height: 420px;
 background: #fff;
 }
 
