@@ -93,6 +93,12 @@ background-color: #404BBF;
 .main-button:focus {
 background-color: #404BBF;
 }
+.main-page-descr-header {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em
+}
 
 .main-page-descr-item {
     font-weight: 500
@@ -114,10 +120,11 @@ color: #434455;
 }
 .main-team-header {
     font-weight: 500
-        font-size: 20px;
-        line-height: 1.2;
+        font-size: 36px;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize;
         color: #2e2f42;
         
 }
