@@ -88,13 +88,14 @@ color: #2e2f42;
 }
 
 .main-button:hover {
-color: #404BBF;
+background-color: #404BBF;
 }
 .main-button:focus {
-color: #404bbf;
+background-color: #404BBF;
 }
 
 .main-page-descr-item {
+    font-weight: 500
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -111,7 +112,7 @@ color: #434455;
 .main-page-team {
     background: #f4f4fd;
 }
-.team-header  {
+.main-team-header {
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
@@ -176,14 +177,15 @@ background: #fff;
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.333;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color:#4d5ae5;
             
 }
 .logo-footer .logo-footer-accent {
-    color: #f4f4fd;
+    line-height: 1.5;
+    color: #F4F4FD;
 }
 
 .descr-footer {
