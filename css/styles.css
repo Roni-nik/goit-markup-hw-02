@@ -113,12 +113,13 @@ color: #434455;
     background: #f4f4fd;
 }
 .main-team-header {
-        font-size: 36px;
-        line-height: 1.11;
+    font-weight: 500
+        font-size: 20px;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        text-transform: capitalize;
+        
 }
 
 .main-page-team-descr {
@@ -143,9 +144,10 @@ color: #434455;
 .main-page-header-portfolio {
     font-weight: 500;
         font-size: 36px;
-        line-height: 0.666;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize;
         color: #2e2f42;
 }
 
@@ -184,16 +186,16 @@ background: #fff;
             
 }
 .logo-footer .logo-footer-accent {
-    line-height: 1.5;
+
     color: #F4F4FD;
 }
 
 .descr-footer {
     font-weight: 400;
         font-size: 16px;
-        line-height: 1.17;
+        line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #4d5ae5;
+        color: #F4F4FD;
 }
 
 
