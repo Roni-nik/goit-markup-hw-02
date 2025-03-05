@@ -59,12 +59,12 @@ a {
     color: #2e2f42;
 }
 
-.main-nav-link :hover {
-    color: #404bbf2;
+.main-nav-link:hover {
+    color:#404bbf;
 }
 
-.main-nav-link :focus {
-    color: #404bbf2;
+.main-nav-link:focus {
+    color:#404bbf;
 }
 
 .nav-links-contacts {
@@ -74,17 +74,11 @@ a {
     color: #434455;
 }
 
-.email:hover {
+.nav-links-contacts:hover {
     color: #404bbf;
  }
- .email:focus {
+ .nav-links-contacts:focus {
      color: #404bbf;
- }
- .phone:hover {
-     color: #404bbf;
- }
- .phone:focus {
-    color: #404bbf;
  }
 
 .main-container-head {
@@ -185,10 +179,6 @@ color: #434455;
             letter-spacing: 0.02em;
         }
 
-
-.portfolio-descr {
-background: #fff;
-}
 
 
 .main-name-portfolio {
