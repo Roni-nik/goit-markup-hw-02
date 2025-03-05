@@ -59,6 +59,14 @@ a {
     color: #2e2f42;
 }
 
+.main-nav-link :hover {
+    color: #404bbf2;
+}
+
+.main-nav-link :focus {
+    color: #404bbf2;
+}
+
 .nav-links-contacts {
     font-size: 16px;
     line-height: 1.5;
@@ -168,40 +176,33 @@ color: #434455;
 
 
 .main-page-header-portfolio {
-        font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-align: center;
-        text-transform: capitalize;
-        color: #2e2f42;
-}
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.11;
+            text-align: center;
+            color: #2e2f42;
+            text-transform: capitalize;
+            letter-spacing: 0.02em;
+        }
+
 
 .portfolio-descr {
 background: #fff;
 }
 
-.main-page-portfolio {
-    font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-align: center;
-        text-transform: capitalize;
-        color: #2e2f42;
-}
 
 .main-name-portfolio {
     font-weight: 500;
         font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        text-align: center;
+        line-height: 1.20;
         color: #2e2f42;
-        
+        letter-spacing: 0.02em;
 
 }
 
 .name-portfolio-descr {
-        font-size: 16px;
+    font-weight: 400;
+    font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
